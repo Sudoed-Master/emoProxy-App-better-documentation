@@ -1,4 +1,4 @@
-# WARNING! THIS IS A FULLY NEW APP, PLEASE SUSPECT BUGS!
+# WARNING! THIS IS A FULLY NEW APP, PLEASE EXPECT BUGS!
 This app is for all linux operating systems.
 Making a hotspot is still your task.
 # emoProxy
