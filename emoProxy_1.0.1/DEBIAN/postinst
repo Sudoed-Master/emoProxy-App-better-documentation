@@ -1,5 +1,0 @@
-#!/bin/bash
-set -e
-
-chmod +x /opt/emoProxy/emoproxy-gui
-chmod -R +x /opt/emoProxy/scripts

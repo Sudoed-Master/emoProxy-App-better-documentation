@@ -1,8 +1,0 @@
-Package: EmoProxy
-Version: 1.0.1
-Section: utils
-Priority: optional
-Architecture: amd64
-Depends: git
-Maintainer: JoVe13
-Description: Easy way to install emo proxy!
