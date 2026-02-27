@@ -120,7 +120,7 @@ fusermount3 --version
 
 ---
 
-## Add user to fuse group if needed
+## Add user to fuse group if needed (not recomended if it allredy works !!)
 
 Some systems require your user to be in the fuse group.
 
@@ -140,7 +140,7 @@ Log out and log back in.
 
 ---
 
-## Load FUSE module manually if required
+## Load FUSE module manually if required (not recomended if it allredy works !!)
 
 ```
 sudo modprobe fuse
