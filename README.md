@@ -176,8 +176,15 @@ Its an external app YOU NEED FUSE -- xyphen
 to do so :-
 keep the appimage and execute this is the same directory itll also chmod it so you dont need to YOU NEED FUSE :-
 ```
-chmod +x emoProxy-x86_64.AppImage && ./emoProxy-x86_64.AppImage --appimage-extract && cd squashfs-root && mkdir ~/emoproxy-ea && cp -r * ~/emoproxy-ea && cd ~/emoproxy-ea && chmod +x AppRun && sudo desktop-file-install emoProxy.desktop && echo -e “All install process done for the AppImage thank you for trying this out script made by Sudoed_Master and it definitely didn’t take an hour to write :D” && cd ~
+chmod +x emoProxy-x86_64.AppImage && ./emoProxy-x86_64.AppImage --appimage-extract && cd squashfs-root && rm -rf ~/emoproxy-ea && rm -rf ~/emoproxy-ea/. && mkdir -p ~/emoproxy-ea && cp -r * ~/emoproxy-ea && rm -rf squashfs-root && cd ~/emoproxy-ea && chmod +x AppRun && echo -e "[Desktop Entry]\nType=Application\nName=emoproxy-ea\nExec=~/emoproxy-ea/AppRun\nIcon=~/emoproxy-ea/Icon.png" > eouoep.desktop && desktop-file-install --dir=~/.local/share/applications eouoep.desktop && echo -e 'All install process done for the AppImage thank you for trying this out, script made by Sudoed_Master and it definitely didn’t take an hour to write :D' && cd ~
 ```
+
+if the app doesnt launch change the ~/ with this template be sure to put your username in
+
+/home/yourusername/emoproxy-ea/AppRun
+
+we use ~ to represent /home/yourusername/ so ~/ will be /home/yourusername/ itll expand :D
+
 ---
 
 # Using the app
