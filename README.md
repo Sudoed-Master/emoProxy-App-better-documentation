@@ -161,6 +161,7 @@ chmod +x emoProxy-x86_64.AppImage
 ```
 4) **to add the app to the taskbar and Application Menu**
 there are two options
+ 
  a) use  Gearlever a flatpak app that basically is a gui to add your apps to your app library and manage them easier with them all being in one gui
 Its an external app YOU NEED FUSE -- xyphen
 
